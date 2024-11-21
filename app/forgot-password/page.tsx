@@ -43,7 +43,7 @@ export default function ForgotPassword() {
           Forgot your password?
         </h2>
         <p className="mt-2 text-center text-sm text-gray-600">
-          Enter your email address and we'll send you instructions to reset your password.
+          Enter your email address and we&apos;ll send you instructions to reset your password.
         </p>
       </div>
 
@@ -54,7 +54,7 @@ export default function ForgotPassword() {
               <AlertCircle className="h-4 w-4" />
               <AlertTitle>Check your email</AlertTitle>
               <AlertDescription>
-                We've sent password reset instructions to your email address.
+                We&apos;ve sent password reset instructions to your email address.
               </AlertDescription>
             </Alert>
           ) : (
